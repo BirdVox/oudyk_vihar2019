@@ -110,7 +110,8 @@ venv.bak/
 # rough work
 sandbox/
 
-
+# metadata
 /notebooks/BirdVox-imitation_metadata.mat
 
-
+# audio
+audio/
