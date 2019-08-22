@@ -102,3 +102,17 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# data
+/notebooks/excerpts*
+/notebooks/imitations*
+/data/*
+
+# rough work
+sandbox/
+
+# metadata
+/notebooks/BirdVox-imitation_metadata.mat
+
+# audio
+audio/
