@@ -1,4 +1,4 @@
-MIT License
+MIT License (with custom changes regarding data)
 
 Copyright (c) 2019 BirdVox
 
@@ -19,3 +19,26 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+DATA:
+The recordings of human imitations of birdsong in this dataset are offered free of charge under the terms of the Creative  Commons Attribution 4.0 International (CC BY 4.0) license: https://creativecommons.org/licenses/by/4.0/
+
+The particular licence on a given stimulus recording is the same as the original license chosen by the recordist who posted the file on Xeno-Canto.org. For each recording downloaded from Xeno-Canto, the attribution and licencing information can be found in the MATLAB structure variable called ‘meta’, which is saved in the file BirdVox-imitation_metadata.mat. Here is a summary of which fields contain which attribution information:
+
+    Title: the Xeno-Canto ID for the recording can be found in meta.recordings.id.
+
+    Author: the recordist’s name can be found in meta.recordings.rec.
+
+    Source: the link to the original audio can be found in meta.recordings.file and the link to the Xeno-Canto page for that file can be found in meta.recordings.url.
+
+    Licence: the link to the licence chosen by the recordists can be found in meta.recordings.lic. This licence also applies to the full birdsong recordings in this dataset and the ‘clean’ excerpts from the original recordings.
+
+    Modifications: ‘clean’ excerpts were taken from the original audio.
+
+    Adaptations/Derivative works: Some of the original licences prohibit derivatives of the original material (i.e., BY-ND and BY-NC-ND licenses). No derivatives of the original material were made in this project, as no additional material was added to the original material (see https://creativecommons.org/faq/#when-is-my-use-considered-an-adaptation  and https://creativecommons.org/faq/#can-i-reuse-an-excerpt-of-a-larger-work-that-is-licensed-with-the-noderivs-restriction for details).
+
+    Commercial purposes: Some of the original licences prohibit use for commercial purposes. In this project, the material was used for research purposes, not for commercial purposes.
+
+All participants verbally agreed to participating and to having their anonymous data published online.
+
+The dataset and its contents are made available on an "as is" basis and without  warranties of any kind, including without limitation satisfactory quality and conformity, merchantability, fitness for a particular purpose, accuracy or  completeness, or absence of errors. Subject to any liability that may not be excluded or limited by law, Cornell Lab of Ornithology is not liable for, and expressly excludes all liability for, loss or damage however and whenever caused to anyone by any use of the BirdVox-imitation dataset or any part of it.
