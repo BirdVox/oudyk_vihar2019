@@ -106,7 +106,7 @@ venv.bak/
 # data
 /notebooks/excerpts*
 /notebooks/imitations*
-/data/*
+/notebooks/BirdVox*
 
 # rough work
 sandbox/
