@@ -9,10 +9,15 @@ We explore computational strategies for matching human vocal imitations of birds
 
 ## Please acknowledge BirdVox-imitation in academic research
 @INPROCEEDINGS{oudyk2019matching,
+
 author = {Oudyk, Kendra and Vincent Lostanlen and Justin Salamon and Andrew Farnsworth and Juan Bello},
+
 title = {Matching human vocal imitations to birdsong: An exploratory analysis},
+
 booktitle = {Proc. 2 nd Intl. Workshop on Vocal Interactivity in-and-between Humans, Animals and Robots (VIHAR), London, England},
+
 year = {2019},
+
 }
 
 ## Feedback
