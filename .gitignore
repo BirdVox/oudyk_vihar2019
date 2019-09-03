@@ -104,9 +104,10 @@ venv.bak/
 .mypy_cache/
 
 # data
-/notebooks/excerpts*
-/notebooks/imitations*
-/notebooks/BirdVox*
+/data/excerpts*
+/data/imitations*
+/data/BirdVox*
+/data/example*
 
 # rough work
 sandbox/
