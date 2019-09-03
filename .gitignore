@@ -117,3 +117,6 @@ sandbox/
 
 # audio
 audio/
+
+# code for scraping Xeno-canto.org
+data_collection/downloadXC.m
